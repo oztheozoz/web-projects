@@ -15,7 +15,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sliding-menus.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -27,7 +27,28 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <p>Hello World!</p>
+    <nav>
+      <ul id="nav">
+        <li class="nav-item">
+          <div class="nav-title">Menu 1</div>
+          <ul class="sub-nav" style="display: none;">
+            <li>menu 1</li>
+            <li>menu 2</li>
+            <li>menu 3</li>
+            <li>menu 4</li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <div class="nav-title">Menu 2</div>
+          <ul class="sub-nav" style="display: none;">
+            <li>menu 1</li>
+            <li>menu 2</li>
+            <li>menu 3</li>
+            <li>menu 4</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -52,7 +73,7 @@
     <!-- endbuild -->
 
     <!-- build:js scrisliding-menus.jsn.js -->
-    <script src="scripts/main.js"></script>
+    <script src="scripts/sliding-menus.js"></script>
     <!-- endbuild -->
   </body>
 </html>

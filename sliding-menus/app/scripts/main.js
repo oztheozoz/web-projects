@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+/**
+ * Created by oztheozoz on 5/20/17.
+ */
